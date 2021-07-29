@@ -1,152 +1,172 @@
 .filterDiv {
-  float: left;
-  color: #070606;
-  display: none;
-  padding-top: 10px;
-  padding-bottom: 190px;
-  padding-left: 30px;
-  padding-right: 20px;
-  margin-top: 50px;
-  margin-right: 5px;
-  margin-left: 0px;
-  height: 225px;
-  width: 170px;
-  border: solid rgb(15, 13, 131);
-  border-radius: 15px;
-  background-color: rgb(255, 255, 255);
+    float: left;
+    color: #070606;
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 190px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 0px;
+    height: 225px;
+    width: 170px;
+    border: solid rgb(15, 13, 131);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
 }
 
 .show {
-  display: block;
+    display: block;
 }
 
+
 /* Style the buttons */
+
 .btn {
-  border: none;
-  outline: none;
-  background-color: #f1f1f1;
-  cursor: pointer;
-  background-color: rgb(4, 74, 87);
-  font-family: 'Itim', cursive;
-  color: rgb(255, 255, 255);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  margin-right: 20px;
-  padding-bottom: 10px;
-  text-decoration:none;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 10px;
-  transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    background-color: rgb(4, 74, 87);
+    font-family: 'Itim', cursive;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn:hover {
-  background-color: rgb(0, 196, 235);
-  color: rgba(10, 239, 255, 0.61);
-  cursor: pointer;
+    background-color: rgb(0, 196, 235);
+    color: rgba(10, 239, 255, 0.61);
+    cursor: pointer;
 }
 
 .btn:active {
-  background-color: #666;
-  color: rgb(47, 170, 201);
-} 
- 
- /* body tag and background */
- body{
-    background-color:rgb(4, 86, 100);
-  
+    background-color: #666;
+    color: rgb(47, 170, 201);
 }
 
-.container-main{
-  background-color:rgb(204, 236, 241);
-  padding: 10px 40px;
-  margin-top: 20px;
-  margin-left: 250px;
-  margin-right: 250px;
-  height: 2100px;
-  width: 700px;
-  border: solid rgb(7, 24, 100);
-  border-radius: 15px;  
+
+/* body tag and background */
+
+body {
+    background-color: rgb(4, 86, 100);
 }
 
-#productHeading{
-  font-family: 'Itim', cursive;
+.container-main {
+    background-color: rgb(204, 236, 241);
+    padding: 10px 60px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 2100px;
+    width: 700px;
+    border: solid rgb(7, 24, 100);
+    border-radius: 15px;
 }
 
-.productName{
-  font-family: 'Itim', cursive;
-  font-size: large;
+#productHeading {
+    font-family: 'Itim', cursive;
 }
 
-.price{
-  font-family: 'Itim', cursive;
-  font-size: medium;
+.productName {
+    font-family: 'Itim', cursive;
+    font-size: large;
 }
 
-#products{
-  display: flex;
-  
+.price {
+    font-family: 'Itim', cursive;
+    font-size: medium;
 }
 
-.displayProduct{
-  padding-top: 10px;
-  padding-bottom: 100px;
-  padding-left: 30px;
-  padding-right: 20px;
-  margin-top: 50px;
-  margin-right: 5px;
-  margin-left: 0px;
-  /* margin-bottom: 60px; */
-  height: 225px;
-  width: 200px;
-  border: solid black;
-  border-radius: 15px;
-   
+#products {
+    display: flex;
 }
 
-#btnLike{
-  float: right;
-  background-color: rgb(6, 136, 243);
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  margin: 1px 1px;
-  border-radius: 50%;
+.displayProduct {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 0px;
+    /* margin-bottom: 60px; */
+    height: 225px;
+    width: 200px;
+    border: solid black;
+    border-radius: 15px;
 }
 
-.imageDiv{
-  height: 160px;
-  margin-top:50px;
+#btnLike {
+    float: right;
+    background-color: rgb(6, 136, 243);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 1px 1px;
+    border-radius: 50%;
 }
 
-.imageClass{
-  border-radius: 10px;
+#btnLike:hover {
+    background-color: rgb(235, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.imageDiv {
+    height: 160px;
+    margin-top: 50px;
+    border: 2x solid rgb(0, 0, 0);
+    box-shadow: 1px 9px 8px 2px rgb(17, 16, 16), 1px 6px 20px 2px rgb(26, 19, 19);
+    /* Animation */
+    transition: transform .2s;
+}
+
+.imageDiv:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 1px 9px 8px 2px rgb(17, 16, 16), 1px 6px 20px 2px rgb(26, 19, 19);
+    opacity: 0.8;
+}
+
+.imageClass {
+    border-radius: 10px;
 }
 
 #btnAdd {
-  background-color: rgb(12, 33, 128);
-  border:1px solid rgb(4, 4, 102);
-  font-family: 'Itim', cursive;
-  color: rgb(248, 242, 242);
-  padding: 10px 20px;
-  font-size: 20px;
-  align-items: center;
-  margin-top: 1px;
-  text-decoration:none;
-  text-align: justify;
-  border-radius: 50px;
-  font-weight: bold;
-  transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background-color: rgb(4, 74, 87);
+    background-color: rgb(12, 33, 128);
+    border: 1px solid rgb(4, 4, 102);
+    font-family: 'Itim', cursive;
+    color: rgb(248, 242, 242);
+    padding: 10px 20px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 1px;
+    text-decoration: none;
+    text-align: justify;
+    border-radius: 50px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(4, 74, 87);
 }
+
 #btnAdd:hover {
-  background-color: rgb(45, 30, 131); 
-  color: white;
-  cursor: pointer;
+    background-color: rgb(252, 252, 253);
+    color: rgb(17, 22, 99);
+    cursor: pointer;
+    opacity: 0.7;
 }
